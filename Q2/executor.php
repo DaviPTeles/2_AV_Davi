@@ -13,7 +13,7 @@
         $ano = $_GET["ano"];
         $atual = 2024;
         $c_ano= $atual - $ano;
-        if ($c_ano>=1 && $c_ano<=11) {
+        if ($c_ano<=11) {
             $estado = "Criança";}
             elseif ($c_ano>11 && $c_ano<=14) {
                 $estado = "Adolescente";}
